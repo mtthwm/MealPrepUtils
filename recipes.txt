@@ -1,0 +1,20 @@
+Honey Sriracha Tofu
+    @effort=4
+    @diet=vegetarian
+    @convenience=6
+    - Honey
+    - Tofu
+    - Sriracha
+    - Cucumber
+    - Red Pepper Flakes
+    - Rice
+    - Soy Sauce
+    - Corn Starch
+Tacos
+    @effort=4
+    @convenience=5
+    - Shredded Chicken || Shredded Pork
+    - Cilantro
+    - Onion
+    - Corn Tortillas
+    - Salsa
