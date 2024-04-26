@@ -68,3 +68,200 @@ Burger w/ Lentil Salad
     - Feta Cheese
     - Garlic
     - Tomato
+Chicken Stir-Fry
+    @effort=6
+    @convenience=2
+    - Chicken
+    - Bell peppers
+    - Onion
+    - Broccoli
+    - Soy Sauce
+    - Garlic
+    - Ginger
+Pasta Casserole
+    @effort=7
+    @diet=vegetarian
+    @convenience=7
+    - Pasta
+    - Tomato Sauce
+    - Mozzarella Cheese
+    - Garlic
+    - Olive Oil
+    - Pepperoni || Italian Sausage
+    - Green Olives
+    - White Beans
+Red Lentil Dal
+    @effort=7
+    @diet=vegetarian
+    @convenience=7
+    - Red Lentils
+    - Onion
+    - Tomato
+    - Garlic
+    - Ginger
+    - Turmeric
+    - Cumin
+Cajun Stir Fry
+    @effort=5
+    @convenience=3
+    - Kielbasa Sausage
+    - Bell peppers
+    - Onion
+    - Cajun seasoning
+    - Garlic
+    - Olive Oil
+    - Rice
+Beef Stroganoff
+    @effort=5
+    @convenience=5
+    - Ground Beef
+    - Mushroom
+    - Onion
+    - Beef Broth
+    - Sour Cream
+    - Garlic
+    - Egg Noodles
+Orzo Pasta Salad
+    @effort=6
+    @diet=vegetarian
+    @convenience=3
+    - Orzo Pasta
+    - Cherry Tomatoes
+    - Cucumber
+    - Feta Cheese
+    - Red Onion
+    - Olive Oil
+    - Lemon Juice
+Soy-Glazed Eggplant
+    @effort=4
+    @diet=vegetarian
+    @convenience=7
+    - Eggplant
+    - Soy Sauce
+    - Brown Sugar
+    - Garlic
+    - Ginger
+    - Mayo
+    - Peanuts (Optional)
+Spam Fried Rice
+    @effort=3
+    @convenience=7
+    - Spam
+    - Rice
+    - Frozen Mixed Vegetables
+    - Eggs
+    - Soy Sauce
+    - Garlic
+    - Green Onions
+Chili
+    @effort=5
+    @convenience=6
+    - Ground Beef
+    - Kidney Beans
+    - Tomato Sauce
+    - Onion
+    - Garlic
+    - Chili Powder
+    - Cumin
+    - Tortilla Chips
+Breakfast for Dinner
+    @effort=3
+    @convenience=5
+    - Eggs
+    - Bacon/Sausage
+    - Pancake Mix
+    - Hash Browns
+    - Tomatoes
+    - Mushrooms
+Beef and Cabbage Stir Fry
+    @effort=5
+    @convenience=6
+    - Beef Strips
+    - Cabbage
+    - Soy Sauce
+    - Garlic
+    - Ginger
+    - Green Onions
+    - Rice
+Enchiladas
+    @effort=6
+    @convenience=5
+    - Chicken/Beef
+    - Tortillas
+    - Enchilada Sauce
+    - Cheese
+    - Onion
+    - Garlic
+    - Cilantro
+Curry Lentil Soup
+    @effort=3
+    @diet=vegetarian
+    @convenience=6
+    - Lentils
+    - Coconut Milk
+    - Curry Powder
+    - Onion
+    - Carrots
+    - Garlic
+    - Ginger
+Quesadillas
+    @effort=3
+    @diet=vegetarian
+    @convenience=6
+    - Tortillas
+    - Cheese
+    - Chicken/Beef (optional)
+    - Onion
+    - Bell Peppers
+    - Salsa
+    - Sour Cream
+Bologna Sandwich
+    @effort=2
+    @convenience=7
+    - Bologna
+    - Bread
+    - Lettuce
+    - Tomato
+    - Mayonnaise
+    - Mustard
+    - Cheese
+Breakfast Potion
+    @effort=3
+    @diet=vegetarian
+    @convenience=8
+    - Banana
+    - Apple
+    - Spinach
+    - Oats
+    - Peanut Butter
+    - Milk
+Rice and Bean
+    @effort=2
+    @diet=vegetarian
+    @convenience=8
+    - Rice
+    - Black Beans
+    - Salsa
+    - Onion
+    - Garlic
+    - Beef Broth
+    - Salsa Lizano (Optional)
+    - Cilantro (Optional)
+Modified Ramen
+    @effort=3
+    @convenience=7
+    - Ramen Noodles
+    - Eggs
+    - Green Onions
+    - Frozen Mixed Vegetables
+    - Soy Sauce
+    - Sriracha
+    - Garlic
+Albacore Sandwich
+    @effort=3
+    @convenience=7
+    - Albacore Tuna
+    - Bread
+    - Mayonnaise
+    - Mustard
+    - Pickles
