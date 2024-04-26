@@ -37,7 +37,7 @@ Pizza Pockets
     - Mozzarella
     - Pepperoni
     - Tomato Sauce
-    - Green Olives
+    - Green Olives (Optional)
 Spaghetti
     @effort=5
     @convenience=6

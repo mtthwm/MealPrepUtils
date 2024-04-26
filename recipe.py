@@ -1,4 +1,5 @@
 import re
+import random
 
 class Recipe:
     def __init__(self, name: str, ingredients: list[str], attributes: dict[str, str]):
@@ -62,3 +63,43 @@ def get_ingredients (recipes: list[Recipe], recipe_names: list[str]) -> list[str
             for ingredient in recipe.ingredients:
                 ingredients.add(ingredient)
     return ingredients
+
+def search_ingredients(recipes, attributes):
+    results = []
+    for recipe in recipes:
+        for attribute in attributes:
+            if '=' in attribute:
+                key, value = re.split(r'[=<>]', attribute)
+                if key in recipe.attributes and recipe.attributes[key] == value:
+                    results.append(recipe)
+                    break
+            elif '>' in attribute:
+                key, value = re.split(r'[=<>]', attribute)
+                if key in recipe.attributes and int(recipe.attributes[key]) > int(value):
+                    results.append(recipe)
+                    break
+            elif '<' in attribute:
+                key, value = re.split(r'[=<>]', attribute)
+                if key in recipe.attributes and int(recipe.attributes[key]) < int(value):
+                    results.append(recipe)
+                    break
+            else:
+                if attribute in recipe.ingredients:
+                    results.append(recipe)
+                    break
+    return results
+
+def get_random_recipes(recipes: list[Recipe], count: int, average_effort: int):
+    # Calculate the weights based on the difference between each recipe's effort and the average effort
+    weights = [1 / (1 + abs(int(recipe.attributes.get('effort', 0)) - average_effort)) for recipe in recipes]
+
+    if count >= len(recipes):
+        return recipes
+    
+    # Randomly select "count" number of recipes based on the weights
+    selections = set()
+    while (len(selections) < count):
+        selections.add(random.choices(recipes, weights=weights, k=1)[0])
+    
+    return selections
+        
