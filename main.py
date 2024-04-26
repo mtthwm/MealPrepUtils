@@ -8,9 +8,29 @@ def get_ingredient_list(database_path, recipe_names):
     for ingredient in ingredients:
         print(ingredient)
 
-def search_ingredients(file_path, attributes):
-    # Your implementation here
-    pass
+def search_ingredients(database_path, attributes):
+    recipes = load_recipes(database_path)
+    for recipe in recipes:
+        for attribute in attributes:
+            if '=' in attribute:
+                key, value = re.split(r'[=<>]', attribute)
+                if key in recipe.attributes and recipe.attributes[key] == value:
+                    print(recipe.name)
+                    break
+            if '>' in attribute:
+                key, value = re.split(r'[=<>]', attribute)
+                if key in recipe.attributes and int(recipe.attributes[key]) > int(value):
+                    print(recipe.name)
+                    break
+            if '<' in attribute:
+                key, value = re.split(r'[=<>]', attribute)
+                if key in recipe.attributes and int(recipe.attributes[key]) < int(value):
+                    print(recipe.name)
+                    break
+            else:
+                if attribute in recipe.ingredients:
+                    print(recipe.name)
+                    break
 
 def main():
     config = configparser.ConfigParser()
