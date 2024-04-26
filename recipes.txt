@@ -6,7 +6,6 @@ Honey Sriracha Tofu
     - Tofu
     - Sriracha
     - Cucumber
-    - Red Pepper Flakes
     - Rice
     - Soy Sauce
     - Corn Starch
@@ -18,3 +17,54 @@ Tacos
     - Onion
     - Corn Tortillas
     - Salsa
+Coconut Curry Lentils
+    @effort=7
+    @diet=vegetarian
+    @convenience=7
+    - Brown Lentils
+    - Coconut Milk
+    - Spinach
+    - Curry Powder
+    - Ginger
+    - Garlic
+    - Onion
+    - Veggie Broth
+    - Olive Oil
+Pizza Pockets
+    @effort=3
+    @convenience=7
+    - Crescent Rolls
+    - Mozzarella
+    - Pepperoni
+    - Tomato Sauce
+    - Green Olives
+Spaghetti
+    @effort=5
+    @convenience=6
+    - Pasta
+    - Ground Beef
+    - Onion
+    - Garlic
+    - Tomato Sauce
+    - Olive Oil
+Quesadillas
+    @effort=1
+    @convenience=10
+    @diet=vegetarian
+    - Cheese
+    - Tortillas
+    - Beans (Optional)
+Burger w/ Lentil Salad
+    @effort=8
+    @convenience=1
+    - Ground Beef
+    - Buns
+    - Pickles
+    - Mayo
+    - Brown Lentils
+    - Parsley
+    - Lemon
+    - Red Onion
+    - Feta Cheese
+    - Garlic
+    - Tomato
