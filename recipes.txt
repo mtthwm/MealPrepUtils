@@ -248,7 +248,7 @@ Rice and Bean
     - Salsa Lizano (Optional)
     - Cilantro (Optional)
 Modified Ramen
-    @effort=3
+    @effort=1
     @convenience=7
     - Ramen Noodles
     - Eggs
