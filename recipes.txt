@@ -265,3 +265,42 @@ Albacore Sandwich
     - Mayonnaise
     - Mustard
     - Pickles
+Pollo Guisado
+    @effort=7
+    @convenience=3
+    - Chicken Thighs
+    - Adobo seasoning
+    - Onion
+    - Garlic
+    - Bell Pepper
+    - Cilantro
+    - Tomato Sauce
+    - Sazon seasoning
+    - Bay Leaves
+    - Oregano
+    - Green Olives
+    - Potato
+    - Carrots
+    - Chicken Stock
+Cold Peanut Salad
+    @effort=5
+    @convenience=4
+    - Lime
+    - Peanut Butter
+    - Soy Sauce
+    - Brown Sugar
+    - Garlic
+    - Ginger
+    - Spaghetti
+    - Cole Slaw Mix
+    - Cilantro
+    - Green Onion
+    - Peanuts
+Pesto Gnocchi
+    @effort=3
+    @convenience=5
+    - Gnocchi
+    - Olive Oil
+    - Heavy Cream
+    - Garlic
+    - Pesto
